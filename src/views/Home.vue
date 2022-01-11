@@ -4,18 +4,45 @@
      <section class="banniere col-12 hero">
       <div class="hero-text">
       
-
-        <h1 class="pt-4 text-center" v-if="eng">
-          I am a Web developer
-          
-          
-        </h1>
+<h1>Discover new trails, learn about cycling, enjoy Fukuoka's nature and more...</h1>
+<br>
+<p>This website is dedicated to riders and nature lovers around Fukuoka Japan</p>
         
       </div>
     </section>
 
  <div>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pApsJ_gwsZKXSVSxFwaSppqBjQt2Kgrq&ehbc=2E312F" width="640" height="480"></iframe>
+   <div class="card mt-3 container mb-3">
+     <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pApsJ_gwsZKXSVSxFwaSppqBjQt2Kgrq&ehbc=2E312F" width="1040" height="380"></iframe>
+
+   <div class="card-body mt-0">
+      <div class="card-title">
+        <h3> Along the coast of Itoshima</h3>
+      </div>
+      <p class="card-text mt-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, non consectetur rem ad blanditiis odio perspiciatis pariatur eveniet repudiandae rerum, consequatur voluptas labore, mollitia fuga explicabo aut sunt iste alias.
+      </p>
+      <div>
+        <div>
+          <h5>
+            Difficulty
+          </h5>
+          <p>🤗 easy</p>
+        </div>
+        <div>
+          <h5>Recomended for</h5>
+          <p>Gravel</p>
+        </div>
+        <div>
+          <h5>Length</h5>
+          <p>~35km</p>
+        </div>
+      </div>
+     
+   </div>
+
+   </div>
+   
 
  </div>
     
@@ -49,37 +76,18 @@ export default {
     position: absolute;
     align-items: center;
     top: 30%;
-    left: 60%;
-    @media screen and (max-width: 900px) {
-      left: 200px;
-    }
-    @media screen and (max-width: 560px) {
-      left: 1px;
-    }
-    p {
-      position: absolute;
-      font-size: 200%;
-      top: -20%;
-      left: 10%;
-      animation: slideDisplay 3s;
-    }
-    h1 {
-      animation: slideDisplay 500ms;
-
-      span.cursor {
-        display: inline-block;
-        margin-left: 3px;
-        width: 4px;
-        background-color: #fff;
-        animation: cursorBlink 800ms infinite;
-      }
-      span.cursor.typing {
-        animation: none;
-      }
-      span.typed-text {
-        color: #e27d60;
-      }
-    }
+    left: 40%;
+    
+    
   }
+  
 }
+
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid grey;
+  }
 </style>
