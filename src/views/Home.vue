@@ -14,7 +14,16 @@
         </p>
       </div>
     </section>
-
+<aside>
+   <vue-weather
+    api-key="<e9f4b1ae54152d7a7dbd8b74fe806637>"
+    use-dark-sky-api= false
+    units="us"
+    latitude="33.590355"
+    longitude="130.401718"
+    hide-header= true
+  />
+</aside>
     <div>
       <div class="card mt-3 container mb-3">
         <iframe
@@ -50,7 +59,7 @@
         </div>
       </div>
       <div class="card mt-3 container mb-3">
-       <iframe src="https://www.google.com/maps/d/embed?mid=1kyxxVZjAwt4S3pfkl1ESmYAEvh2KweH5&ehbc=2E312F" width="1040" height="480"></iframe>
+       <iframe src="https://www.google.com/maps/d/embed?mid=1kyxxVZjAwt4S3pfkl1ESmYAEvh2KweH5&ehbc=2E312F" width="1040" height="380"></iframe>
 
         <div class="card-body mt-0">
           <div class="card-title">
@@ -87,12 +96,14 @@
 // @ is an alias to /src
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
+import VueWeather from "vue-weather-widget";
 
 export default {
   name: "Home",
   components: {
     TheHeader: TheHeader,
-    TheFooter: TheFooter
+    TheFooter: TheFooter,
+    VueWeather: VueWeather
   },
 };
 </script>
