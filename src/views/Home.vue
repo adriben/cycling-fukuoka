@@ -15,12 +15,10 @@
       </div>
     </section>
 <aside>
-   <vue-weather
-    api-key="e9f4b1ae54152d7a7dbd8b74fe806637"
-    units="auto"
-    latitude="33.590355"
-    longitude="130.401718"
-  />
+  <div class="weather-widget-container">
+  <open-weather-widget :api-key="e9f4b1ae54152d7a7dbd8b74fe806637"/>
+</div>
+  
 </aside>
     <div>
       <div class="card mt-3 container mb-3">
@@ -94,14 +92,14 @@
 // @ is an alias to /src
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
-import VueWeather from "vue-weather-widget";
+
 
 export default {
   name: "Home",
   components: {
     TheHeader: TheHeader,
     TheFooter: TheFooter,
-    VueWeather: VueWeather
+
   },
 };
 </script>
@@ -109,13 +107,19 @@ export default {
 .hero {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/landscape.jpg");
+    url("../assets/landscape5.jpg");
   background-position: -50px +50px;
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
   width: 100%;
   position: relative;
+  h1{
+    font-family: 'Luxurious Roman', cursive;
+  }
+  p{
+    font-size: 110%;
+  }
 
   .hero-text {
     position: absolute;
