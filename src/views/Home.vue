@@ -16,12 +16,10 @@
     </section>
 <aside>
    <vue-weather
-    api-key="<e9f4b1ae54152d7a7dbd8b74fe806637>"
-    use-dark-sky-api= false
-    units="us"
+    api-key="e9f4b1ae54152d7a7dbd8b74fe806637"
+    units="auto"
     latitude="33.590355"
     longitude="130.401718"
-    hide-header= true
   />
 </aside>
     <div>
