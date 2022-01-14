@@ -15,9 +15,7 @@
       </div>
     </section>
 <aside>
-  <div class="weather-widget-container">
-  <open-weather-widget :api-key="e9f4b1ae54152d7a7dbd8b74fe806637"/>
-</div>
+<Weather></Weather>
   
 </aside>
     <div>
@@ -92,6 +90,7 @@
 // @ is an alias to /src
 import TheHeader from "@/components/TheHeader.vue";
 import TheFooter from "@/components/TheFooter.vue";
+import Weather from "@/components/Weather.vue"
 
 
 export default {
@@ -99,6 +98,9 @@ export default {
   components: {
     TheHeader: TheHeader,
     TheFooter: TheFooter,
+    Weather: Weather
+
+ 
 
   },
 };
