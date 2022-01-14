@@ -21,7 +21,7 @@ export default {
     return{
       request: '',
       temps: undefined,
-      api_code:"e9f4b1ae54152d7a7dbd8b74fe806637",
+      api_code:"",
       url_recherche: "https://api.openweathermap.org/data/2.5/weather?"
 
   }
