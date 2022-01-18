@@ -14,7 +14,8 @@
         </p>
       </div>
     </section>
-<aside>
+<aside class="">
+
 <Weather></Weather>
   
 </aside>
