@@ -5,9 +5,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
           <p class="navbar-brand">
             <i class="fas fa-bicycle"></i>
-           Road and Gravel Bike Life in Fukuoka
+            Road and Gravel Bike Life in Fukuoka
           </p>
-  
+
           <button
             class="navbar-toggler"
             type="button"
@@ -25,26 +25,21 @@
                 <a class="nav-link" href="#"
                   ><i class="fas fa-map-marked-alt"></i> Trails</a
                 >
-            
               </li>
               <li class="nav-item text-right active">
-                <a class="nav-link" href="#" 
+                <a class="nav-link" href="#"
                   ><i class="fas fa-photo-video"></i> Media</a
                 >
-        
               </li>
               <li class="nav-item text-right active">
-                <a class="nav-link" href="#" 
+                <a class="nav-link" href="#"
                   ><i class="far fa-newspaper"></i> Articles</a
                 >
-               
               </li>
               <li class="nav-item text-right active pl-5">
-                
-                <a class="nav-link" href="" 
+                <a class="nav-link" href=""
                   ><i class="fas fa-graduation-cap"></i> E-learning
                 </a>
-          
               </li>
             </ul>
           </div>
@@ -98,11 +93,9 @@ header {
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
   }
-  .navbar-dark{
- background-color: #000000;
-background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
-
+  .navbar-dark {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
   }
 }
 </style>
-

@@ -54,7 +54,6 @@
         <div class="card-top text-center">
           <div class="city-name my-3">
             <p>Today in Fukuoka</p>
-      
           </div>
         </div>
         <!-- top of card ends here -->
@@ -69,14 +68,12 @@
                 <p class="my-4">{{ weather.description }}</p>
               </div>
             </div>
-            
           </div>
           <!-- card middle ends here -->
 
           <!-- card bottom starts here -->
           <div class="card-bottom px-5 py-4 row">
-            <div class="col text-center">
-            </div>
+            <div class="col text-center"></div>
           </div>
 
           <!-- card bottom ends here -->
@@ -87,7 +84,6 @@
 </template>
 
 <script>
-
 export default {
   name: "Weather",
   data() {
@@ -110,13 +106,12 @@ export default {
       },
     };
   },
-  beforeMount(){
-    this.getWeather()
- },
+  beforeMount() {
+    this.getWeather();
+  },
   methods: {
     getWeather: async function () {
-
-      const key = process.env.VUE_APP_API_KEY
+      const key = process.env.VUE_APP_API_KEY;
       const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${key}&units=metric`;
       //fetch weather
       try {
@@ -199,4 +194,3 @@ export default {
 @import "../assets/custom.css";
 @import "../assets/animation.css";
 </style>
-
