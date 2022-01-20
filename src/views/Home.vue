@@ -22,7 +22,7 @@
     <div>
       <div class="card mt-3 container mb-3">
         <iframe
-          src="https://www.google.com/maps/d/u/0/embed?mid=1pApsJ_gwsZKXSVSxFwaSppqBjQt2Kgrq&ehbc=2E312F"
+          src="https://www.google.com/maps/d/embed?mid=1pApsJ_gwsZKXSVSxFwaSppqBjQt2Kgrq&ehbc=2E312F"
           width="1040"
           height="380"
         ></iframe>
